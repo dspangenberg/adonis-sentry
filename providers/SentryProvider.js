@@ -1,8 +1,8 @@
 'use strict'
 
-const ServiceProvder = require('adonis-fold').ServiceProvder
+const ServiceProvider = require('adonis-fold').ServiceProvider
 
-class SentryProvider extends ServiceProvder {
+class SentryProvider extends ServiceProvider {
 
   * register () {
     this.app.singleton('Adonis/Addons/Sentry', function (app) {
